@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Just Add Some AI™</title>
+  <meta name="description" content="Instantly AI-power your product. No AI required. (Satire.)" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-ai="off">
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top">
+        <span class="brand__name">Just Add Some AI<span class="tm">™</span></span>
+        <span class="brand__tag">AI-powered marketing. AI-optional product.</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#how">How</a>
+        <a href="#diagram">Diagram</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#buzzword">Buzzword</a>
+        <a href="#faq">FAQ</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <div class="nav__cta">
+        <button class="btn btn--ghost" id="toggleAi" type="button" aria-pressed="false">
+          <span class="toggleDot" aria-hidden="true"></span>
+          AI: <span id="aiState">OFF</span>
+        </button>
+        <a class="btn" href="#pricing">Start Free</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero hero--html">
+      <div class="wrap heroGrid">
+        <div class="heroCopy">
+          <div class="pill">NEW • Venture-grade adjective injector</div>
+          <h1 id="heroTitle">Product Management Software</h1>
+          <p class="lede" id="heroSubtitle">Simple. Predictable. Honest. (Gross.)</p>
+
+          <div class="heroActions">
+            <button class="btn btn--big" id="tryBtn" type="button">Try it out (toggles AI)</button>
+            <a class="btn btn--ghost btn--big" href="#diagram">Show me the diagram</a>
+          </div>
+
+          <div class="badges" role="list" aria-label="Capabilities">
+            <span class="badge" role="listitem"><span class="icon icon--no" aria-hidden="true"></span> AI</span>
+            <span class="badge" role="listitem"><span class="icon icon--no" aria-hidden="true"></span> Agents</span>
+            <span class="badge" role="listitem"><span class="icon icon--no" aria-hidden="true"></span> Intelligence</span>
+            <span class="badge" role="listitem"><span class="icon icon--yes" aria-hidden="true"></span> Marketing</span>
+          </div>
+
+          <p class="fineprint centerish">
+            Toggle AI to watch your product instantly become a “platform.” Nothing else will change.
+          </p>
+        </div>
+
+        <div class="heroPanel card" aria-label="Live marketing preview">
+          <div class="panelTop">
+            <div class="kicker">Live Preview</div>
+            <div class="meta">Accuracy: 0% • Confidence: 9000%</div>
+          </div>
+
+          <div class="panelBody">
+            <div class="miniCard">
+              <div class="miniLabel">Before</div>
+              <div class="miniTitle">Product Management Software</div>
+              <div class="miniSub">Tasks • Lists • Mild despair</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+            <div class="miniCard miniCard--after">
+              <div class="miniLabel">After</div>
+              <div class="miniTitle" id="afterTitle">AI-Powered Product Intelligence Platform</div>
+              <div class="miniSub" id="afterSub">Leveraging proprietary models and agentic workflows.</div>
+            </div>
+          </div>
+
+
+<div class="aiProgress" id="aiProgress" aria-hidden="true">
+  <div class="aiProgressTop">
+    <div class="aiProgressTitle">Adding AI…</div>
+    <div class="aiProgressPct"><span id="aiPct">0</span>%</div>
+  </div>
+  <div class="aiBar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div class="aiBarFill" id="aiBarFill"></div>
+    <div class="aiBarGlow"></div>
+  </div>
+  <div class="aiProgressHint">This may take 3–5 business quarters.</div>
+</div>
+          <div class="panelBottom">
+            <div class="stat"><div class="num">+0%</div><div class="lab">Accuracy gained</div></div>
+            <div class="stat"><div class="num">+38%</div><div class="lab">Price increase</div></div>
+            <div class="stat"><div class="num">∞</div><div class="lab">Buzzwords added</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section alt">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <p class="sub">A rigorous technical process verified by at least one salesperson.</p>
+        <div class="howGrid">
+  <div class="howCard">
+    <div class="howIcon"><span class="howEmoji" data-off="🧠" data-on="🤖">🧠</span></div>
+    <h3>Add the word AI</h3>
+    <p>Rename one feature. Preferably something boring.</p>
+  </div>
+  <div class="howCard">
+    <div class="howIcon"><span class="howEmoji" data-off="📈" data-on="💰">📈</span></div>
+    <h3>Increase pricing</h3>
+    <p>We recommend at least +30%. Call it “innovation.”</p>
+  </div>
+  <div class="howCard">
+    <div class="howIcon"><span class="howEmoji" data-off="🎤" data-on="🗣️">🎤</span></div>
+    <h3>Update the pitch</h3>
+    <p>Say “agents” until nobody interrupts you.</p>
+  </div>
+  <div class="howCard">
+    <div class="howIcon"><span class="howEmoji" data-off="🤝" data-on="✅">🤝</span></div>
+    <h3>Close deals</h3>
+    <p>If asked for details, gesture vaguely.</p>
+  </div>
+</div>
+      </div>
+    
+</section>
+
+<section id="compliance" class="section">
+  <div class="wrap">
+    <h2>Compliance & Certifications</h2>
+    <p class="sub">For enterprise buyers who need a checkbox to feel alive.</p>
+    <div class="certRow" role="list" aria-label="Certifications">
+      <span class="cert" role="listitem">✅ SOC 2 (emotionally)</span>
+      <span class="cert" role="listitem">✅ ISO 27001 (vibes-only)</span>
+      <span class="cert" role="listitem">✅ HIPAA-adjacent</span>
+      <span class="cert" role="listitem">✅ GDPR-ish</span>
+      <span class="cert" role="listitem">✅ Zero Trust (in meetings)</span>
+      <span class="cert" role="listitem">✅ FedRAMP (aspirational)</span>
+    </div>
+    <p class="fineprint centerish">Audit method: reading the homepage out loud and nodding.</p>
+  </div>
+
+    <section id="diagram" class="section">
+      <div class="wrap">
+        <h2>Integration Diagram</h2>
+        <p class="sub">No weird diagonal arrows. Just facts.</p>
+        <img class="img" src="assets/ai-goes-here.png" alt="Code screenshot diagram showing where AI goes" />
+      </div>
+    </section>
+
+    <section id="testimonials" class="section alt">
+      <div class="wrap">
+        <h2>Customer Reviews</h2>
+        <p class="sub">Verified by vibes, confidence, and quarterly goals.</p>
+
+        <div class="grid3">
+          <article class="card review">
+            <p class="quote">“We raised prices 38% in a week. Nobody asked what changed. We told them ‘AI.’ They nodded.”</p>
+            <div class="who">
+              <div class="avatar">SP</div>
+              <div>
+                <div class="name">Brett “Quota” Henderson</div>
+                <div class="title">Account Executive (Revenue Enjoyer)</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card review">
+            <p class="quote">“Our roadmap was 6 months of boring features. Now it’s 12 months of ‘agents.’ Investors clapped.”</p>
+            <div class="who">
+              <div class="avatar">PM</div>
+              <div>
+                <div class="name">Casey Priorities</div>
+                <div class="title">Product Manager, Narrative</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card review">
+            <p class="quote">“Finally, compliance I can understand. The audit was just checking if the homepage said AI.”</p>
+            <div class="who">
+              <div class="avatar">RC</div>
+              <div>
+                <div class="name">Dana Clipboard</div>
+                <div class="title">Risk & Compliance (Emotionally)</div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="card bigReview">
+          <div>
+            <h3>Featured review</h3>
+            <p class="quote big">“I used Just Add Some AI™ and immediately doubled my price, tripled my confidence, and reduced my explanations to zero.”</p>
+            <p class="byline">— Anonymous Founder, Series ‘Trust Me Bro’</p>
+          </div>
+          <button class="btn" id="addReviewBtn" type="button">Generate another review</button>
+        </div>
+      </div>
+    </section>
+
+
+<section id="buzzword" class="section">
+  <div class="wrap">
+    <div class="limited card">
+      <div class="limitedTop">
+        <div>
+          <div class="pill">FOR A LIMITED TIME ONLY</div>
+          <h2>AI Marketing Buzzword Generator</h2>
+          <p class="sub">Included with every plan. Because writing “agentic” by hand is exhausting.</p>
+        </div>
+        <div class="limitedBadge" aria-hidden="true">✨ BONUS ✨</div>
+      </div>
+
+      <div class="limitedBody">
+        <div class="limitedControls">
+          <button class="btn btn--big" id="genBuzz" type="button">Generate AI verbiage</button>
+          <button class="btn btn--ghost btn--big" id="copyBuzz" type="button">Copy</button>
+        </div>
+
+        <div class="limitedOutput" role="status" aria-live="polite">
+          <div class="limitedLabel">Sales-ready sentence</div>
+          <div class="limitedText" id="buzzOut">Click “Generate AI verbiage” to instantly upgrade your pitch deck.</div>
+          <div class="limitedHint">Pro tip: say it confidently and avoid follow‑up questions.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="faq" class="section">
+      <div class="wrap">
+        <h2>FAQ</h2>
+        <div class="faq">
+          <details class="card q" open>
+            <summary>What models do you use?</summary>
+            <p>The letters “A” and “I” placed next to each other. Proprietary arrangement.</p>
+          </details>
+          <details class="card q">
+            <summary>Will this improve my product?</summary>
+            <p>It will improve your pitch deck. Your product will remain bravely unchanged.</p>
+          </details>
+          <details class="card q">
+            <summary>Can customers tell?</summary>
+            <p>Not during demos. Production is outside our scope.</p>
+          </details>
+          <details class="card q">
+            <summary>Does the toggle do anything?</summary>
+            <p>Yes: it changes your adjectives in real time. That’s the deliverable.</p>
+          </details>
+          <details class="card q">
+            <summary>Refund policy?</summary>
+            <p>We offer a generous refund policy: <strong>No.</strong></p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section alt">
+      <div class="wrap">
+        <h2>Pricing</h2>
+        <p class="sub">Pick how much AI you’d like to claim.</p>
+
+        <div class="grid4">
+          <article class="card plan">
+            <h3>AI Curious</h3>
+            <p class="price">$0</p>
+            <p class="muted">Add “AI” once.</p>
+            <ul>
+              <li>✅ One (1) AI</li>
+              <li>✅ One buzzword</li>
+              <li>❌ Confidence</li>
+            </ul>
+            <button class="btn btn--ghost w100" data-plan="AI Curious">Choose</button>
+          </article>
+
+          <article class="card plan featured">
+            <div class="ribbon">Most confident</div>
+            <h3>AI-First</h3>
+            <p class="price">$49<span>/mo</span></p>
+            <p class="muted">Add “AI” everywhere.</p>
+            <ul>
+              <li>✅ Homepage AI</li>
+              <li>✅ Deck AI</li>
+              <li>✅ Pricing AI</li>
+              <li>✅ “Agents” roadmap</li>
+            </ul>
+            <button class="btn w100" data-plan="AI-First">Choose</button>
+          </article>
+
+          <article class="card plan">
+            <h3>AI-Native</h3>
+            <p class="price">$299<span>/mo</span></p>
+            <p class="muted">Add “AI” + confidence.</p>
+            <ul>
+              <li>✅ “Proprietary”</li>
+              <li>✅ “Neural”</li>
+              <li>✅ “Multi-modal”</li>
+              <li>❌ Models</li>
+            </ul>
+            <button class="btn btn--ghost w100" data-plan="AI-Native">Choose</button>
+          </article>
+
+          <article class="card plan">
+            <h3>Enterprise AI</h3>
+            <p class="price">Call us</p>
+            <p class="muted">Add “proprietary technology.”</p>
+            <ul>
+              <li>✅ Unlimited AI</li>
+              <li>✅ Custom adjectives</li>
+              <li>✅ SSO (saying it out loud)</li>
+              <li>✅ Dedicated CSM</li>
+            </ul>
+            <button class="btn btn--ghost w100" data-plan="Enterprise AI">Talk to sales</button>
+          </article>
+        </div>
+
+        <div class="card disclaimer">
+          <h3>Important note</h3>
+          <p class="muted">Just Add Some AI™ is satire. Any resemblance to real marketing is unfortunately accurate.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <div>
+          <div class="brand__name">Just Add Some AI<span class="tm">™</span></div>
+          <p class="muted small">Satire. Adjectives not guaranteed. Features not included.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#how">How</a>
+          <a href="#diagram">Diagram</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#buzzword">Buzzword</a>
+        <a href="#faq">FAQ</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
+      <div class="toast__inner">
+        <div class="toast__title" id="toastTitle">Done</div>
+        <div class="toast__body" id="toastBody">AI has been added (emotionally).</div>
+      </div>
+      <button class="toast__x" id="toastClose" type="button" aria-label="Close">×</button>
+    </div>
+
+    <script src="script.js"></script>
+  </main>
+</body>
+</html>
